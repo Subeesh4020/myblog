@@ -36,33 +36,27 @@ Users can:
 
 The application is designed to demonstrate how a social media platform can be developed using multiple backend services instead of relying on a single backend application.
 
-## Main Architecture
+## Project Goals
 
-The project follows a multi-service backend architecture.
+<li> The main objectives of MyBlog are:
 
-Different services are responsible for different tasks, such as API handling, fast data fetching, real-time communication, and AI processing.
+<li> Build a complete full-stack social media application.
 
-                         MyBlog
-                           |
-                    React Frontend
-                           |
-                    API Communication
-                           |
-                    Node.js / Express
-                           |
-        ┌──────────────────┼──────────────────┐
-        |                  |                  |
-     MongoDB             Kafka             Redis
-        |                  |                  |
-   Persistent         Event Messaging    Cache / Queues
-     Storage               |                  |
-                           |
-                 ┌─────────┴─────────┐
-                 |                   |
-             Python AI          Other Services
-             Moderation
+<li> Learn and apply modern frontend and backend technologies.
 
-        Rust Axum API       Elixir Phoenix Chat
+<li> Understand multi-service backend architecture.
+
+<li> Implement real-time communication using WebSockets.
+
+<li> Explore event-driven communication using Kafka.
+
+<li> Use Redis for caching and background job processing.
+
+<li> Integrate AI into a practical software project.
+
+<li> Learn how to design scalable and maintainable backend systems.
+
+
 
 
 ## Technology Stack
