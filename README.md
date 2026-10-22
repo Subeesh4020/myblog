@@ -61,25 +61,25 @@ The application is designed to demonstrate how a social media platform can be de
 
 ## Technology Stack <br />
 <b> Frontend </b> <br />
-    <li> React, TypeScript, Vite, CSS Modules
+    <li> React, TypeScript, Vite, CSS Modules <br />
 <b> Main Backend </b> <br />
-    <li> Node.js, Express, TypeScript
+    <li> Node.js, Express, TypeScript <br />
 <b> Database </b> <br />
-    <li> MongoDB, Mongoose, MongoDB Atlas
-<b> Fast Data API </b>
-    <li> Rust, Axum
-<b> Real-Time Chat </b>
-    <li> Elixir, Phoenix, WebSockets
-<b> AI Services </b>
-    <li> Python, Hugging Face models
-<b> Messaging / Event streaming </b>
-    <li> Kafka
-<b> Caching </b>
-    <li> Redis / Valkey
-<b> Background Jobs </b>
-    <li> BullMq
-<b> Containerization </b>
-    <li> Podman / Docker
+    <li> MongoDB, Mongoose, MongoDB Atlas <br />
+<b> Fast Data API </b> <br />
+    <li> Rust, Axum <br />
+<b> Real-Time Chat </b> <br />
+    <li> Elixir, Phoenix, WebSockets <br />
+<b> AI Services </b> <br />
+    <li> Python, Hugging Face models <br />
+<b> Messaging / Event streaming </b> <br />
+    <li> Kafka <br />
+<b> Caching </b> <br />
+    <li> Redis / Valkey <br />
+<b> Background Jobs </b> <br />
+    <li> BullMq <br />
+<b> Containerization </b> <br />
+    <li> Podman / Docker <br />
 
 
 <h2><b> *More details will be added as the documentation progresses.* </b></h2>
