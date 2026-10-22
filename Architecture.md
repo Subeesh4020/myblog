@@ -12,19 +12,19 @@ Different services are responsible for different tasks, such as API handling, fa
                            |
                     Node.js / Express
                            |
-        ┌──────────────────┼──────────────────┐
-        |                  |                  |
-     MongoDB             Kafka             Redis
-        |                  |                  |
-   Persistent         Event Messaging    Cache / Queues
-     Storage               |                  |
-                           |
-                 ┌─────────┴─────────┐
-                 |                   |
-             Python AI          Other Services
-             Moderation              |
-                                     |   
-                                   Rust Axum API, Elixir Phoenix Chat
+        ┌──────────────────┼───────────────────────────────────────┐
+        |                  |                  |                    |
+        |                 Kafka               Redis               BullMq
+        |                  |                  |                    |
+        |              Event Messaging       Cache            Background Queue processing
+        |                  |                 
+    ┌───|                  |
+    ┌──────────────────────┴─────────────────┐
+    |                      |                 |
+  MongoDB              Python AI        Other Services
+    |                  Moderation            |
+Persistent                                   |   
+Storage                             Rust Axum API, Elixir Phoenix Chat
 ```
 
 <h2><b> *More details will be added as the documentation progresses.* </b></h2>
