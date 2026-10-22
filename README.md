@@ -82,3 +82,6 @@ The application is designed to demonstrate how a social media platform can be de
     <li> BullMQ
 <li> Containerization
     <li> Podman / Docker
+
+
+<h2><b> *More details will be added as the documentation progresses.* </b></h2>
