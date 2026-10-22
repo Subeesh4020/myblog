@@ -59,12 +59,12 @@ The application is designed to demonstrate how a social media platform can be de
 
 
 
-## Technology Stack
-<b> Frontend </b>
+## Technology Stack <br />
+<b> Frontend </b> <br />
     <li> React, TypeScript, Vite, CSS Modules
-<b> Main Backend </b>
+<b> Main Backend </b> <br />
     <li> Node.js, Express, TypeScript
-<b> Database </b>
+<b> Database </b> <br />
     <li> MongoDB, Mongoose, MongoDB Atlas
 <b> Fast Data API </b>
     <li> Rust, Axum
