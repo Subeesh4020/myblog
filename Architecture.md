@@ -22,9 +22,9 @@ Different services are responsible for different tasks, such as API handling, fa
                  ┌─────────┴─────────┐
                  |                   |
              Python AI          Other Services
-             Moderation
-
-        Rust Axum API       Elixir Phoenix Chat
+             Moderation              |
+                                     |   
+                                   Rust Axum API, Elixir Phoenix Chat
 ```
 
 <h2><b> *More details will be added as the documentation progresses.* </b></h2>
