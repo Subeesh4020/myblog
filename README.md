@@ -38,7 +38,7 @@ The application is designed to demonstrate how a social media platform can be de
 
 ## Project Goals
 
-<li> The main objectives of MyBlog are:
+<b> The main objectives of MyBlog are:</b>
 
 <li> Build a complete full-stack social media application.
 
@@ -50,9 +50,9 @@ The application is designed to demonstrate how a social media platform can be de
 
 <li> Explore event-driven communication using Kafka.
 
-<li> Use Redis for caching and background job processing.
+<li> Use Redis for caching and BullMq for background job processing.
 
-<li> Integrate AI into a practical software project.
+<li> Integrate AI moderation and text generation into a practical software project.
 
 <li> Learn how to design scalable and maintainable backend systems.
 
