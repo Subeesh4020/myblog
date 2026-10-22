@@ -3,7 +3,7 @@
 The project follows a multi-service backend architecture.
 
 Different services are responsible for different tasks, such as API handling, fast data fetching, real-time communication, and AI processing.
-
+```  
                          MyBlog
                            |
                     React Frontend
@@ -25,3 +25,4 @@ Different services are responsible for different tasks, such as API handling, fa
              Moderation
 
         Rust Axum API       Elixir Phoenix Chat
+```
